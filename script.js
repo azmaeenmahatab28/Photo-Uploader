@@ -55,7 +55,7 @@ function ShowMe(){
       fileReader.readAsDataURL(Myfile); 
     }
     else  {
-        alert("This file is not vali. Please use image files. 🥰"); 
+        alert("This file is not valil. Please upload image files. 🥰"); 
         DragArea.classList.remove("active"); 
         DragText.textContent = "Drag & Drop";
     }
