@@ -55,7 +55,7 @@ function ShowMe(){
       fileReader.readAsDataURL(Myfile); 
     }
     else  {
-        alert("আপনার ফাইল টা ভালো না পচা । দয়া করে ইমেজ ফাইল ব্যবহার করুন 🥰"); 
+        alert("This file is not vali. Please use image files. 🥰"); 
         DragArea.classList.remove("active"); 
         DragText.textContent = "Drag & Drop";
     }
